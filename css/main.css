@@ -22,7 +22,7 @@ background-image: linear-gradient(155deg, #6A3C80 0%,  #6FB7C8 100%);
 .left-column {
     width: 40%;
     float: left;
-    background-image: url("/images/kalnas.jpg");
+    background-image: url("../images/kalnas.jpg");
     background-size: cover;
     background-position: center;
 }
