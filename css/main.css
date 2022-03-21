@@ -5,7 +5,13 @@ body * {
     box-sizing: border-box;
 }
 body {
-background-image: linear-gradient(155deg, #6A3C80 0%,  #6FB7C8 100%);
+    display: inline-block;
+    background-image: linear-gradient(205deg, #4182d62a 0%, #551969a9 100%), url(../images/kalnas.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    background-size: cover;
 }
 
 .container {
@@ -15,16 +21,20 @@ background-image: linear-gradient(155deg, #6A3C80 0%,  #6FB7C8 100%);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: aqua;
 
 
 }
 
 .left-column {
+    background-color: #6FB7C8;
     width: 40%;
-    float: left;
-    background-image: url("../images/kalnas.jpg");
+    background-image: linear-gradient(205deg, #4182d62a 0%, #551969a9 100%), url(../images/kalnas.jpg);
     background-size: cover;
     background-position: center;
+    top: 15px;
+    bottom: 15px;
+    position: absolute;
 }
 h1 {
     display: inline-block;
@@ -32,16 +42,31 @@ h1 {
     color: whitesmoke;
     margin: 20px;
 }
-.abc {
+.privacy {
     color: whitesmoke;
-    margin-bottom: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.terms {
+    color: whitesmoke;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.amp {
+    color: whitesmoke;
+    position: absolute;
+    bottom: 10px;
+    
 }
 
 .right-column {
     width: 60%;
-    float: left;
-    background-color: white;
-    padding-bottom: 20px;
+    float: right;
+    background-color: rgb(241, 20, 20);
 
 }
 .xstyle {
@@ -52,4 +77,8 @@ h1 {
     height: 25px;
     text-align: right;
     padding: 10px;
+}
+
+.forma {
+    
 }
