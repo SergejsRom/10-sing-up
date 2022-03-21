@@ -7,7 +7,7 @@ _35 group sign up project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://sergejsrom.github.io/10-sign-up/
+Site published at: https://sergejsrom.github.io/10-sing-up/
 
 Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
