@@ -3,12 +3,12 @@
 }
 
 .knopke {
-    font-size:x-large;
+    font-size:large;
     font-style: oblique;
     font-weight: 550;
     margin: 40px 0 0 20px;
     background-image: linear-gradient(205deg, #4182d6 0%, #6f0b91 100%);
-    padding: 10px 30px 10px 30px;
+    padding: 10px 40px 10px 40px;
     color: whitesmoke;
     border-radius: 30px 30px 30px 30px;
     border: none;
@@ -21,7 +21,7 @@
 
 .or {
     display: inline-block;
-    font-size:x-large;
+    font-size: large;
     font-style: oblique;
     font-weight: 550;
     margin: 40px 0 0 0;
@@ -31,7 +31,7 @@
 
 .btnright {
     display: inline-block;
-    font-size:x-large;
+    font-size: large;
     font-style: oblique;
     font-weight: 550;
     margin: 40px 0 0 0;
