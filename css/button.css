@@ -1,0 +1,40 @@
+.btndiv {
+ display: inline-block;
+}
+
+.knopke {
+    font-size:x-large;
+    font-style: oblique;
+    font-weight: 550;
+    margin: 40px 0 0 20px;
+    background-image: linear-gradient(205deg, #4182d6 0%, #6f0b91 100%);
+    padding: 10px 30px 10px 30px;
+    color: whitesmoke;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+}
+
+.knopke:hover {
+    cursor: pointer;
+    background-image: linear-gradient(205deg, #4182d6a4 0%, #700b919d 100%);
+}
+
+.or {
+    display: inline-block;
+    font-size:x-large;
+    font-style: oblique;
+    font-weight: 550;
+    margin: 40px 0 0 0;
+    padding: 10px 30px 10px 50px;
+    color: gray;
+}
+
+.btnright {
+    display: inline-block;
+    font-size:x-large;
+    font-style: oblique;
+    font-weight: 550;
+    margin: 40px 0 0 0;
+    padding: 10px 30px 10px 30px;
+    color: #4182d6;
+}

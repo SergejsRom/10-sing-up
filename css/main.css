@@ -21,13 +21,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: aqua;
-
-
+    
 }
 
 .left-column {
-    background-color: #6FB7C8;
     width: 40%;
     background-image: linear-gradient(205deg, #4182d62a 0%, #551969a9 100%), url(../images/kalnas.jpg);
     background-size: cover;
@@ -36,7 +33,7 @@ body {
     bottom: 15px;
     position: absolute;
 }
-h1 {
+.sing-header {
     display: inline-block;
     font-weight: 500;
     color: whitesmoke;
@@ -55,18 +52,11 @@ h1 {
 
 }
 
-.terms {
-    color: whitesmoke;
-    position: absolute;
-    bottom: 10px;
-
-}
-
-
 .right-column {
     width: 60%;
+    position: relative;
     float: right;
-    background-color: rgb(241, 20, 20);
+    background-color: whitesmoke;
     padding: 40px 30px 40px 30px;
 
 }
@@ -78,8 +68,4 @@ h1 {
     height: 45px;
     text-align: center;
     padding: 15px 15px 15px 15px;
-}
-
-.forma {
-    
 }
