@@ -21,7 +21,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: aqua;
     
 }
 
@@ -53,19 +52,11 @@ body {
 
 }
 
-.terms {
-    color: whitesmoke;
-    position: absolute;
-    bottom: 10px;
-
-}
-
-
 .right-column {
     width: 60%;
     position: relative;
     float: right;
-    background-color: rgb(241, 20, 20);
+    background-color: whitesmoke;
     padding: 40px 30px 40px 30px;
 
 }
@@ -78,8 +69,3 @@ body {
     text-align: center;
     padding: 15px 15px 15px 15px;
 }
-
-.forma {
-    
-}
-
