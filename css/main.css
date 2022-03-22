@@ -65,6 +65,7 @@ h1 {
 
 .right-column {
     width: 60%;
+    position: relative;
     float: right;
     background-color: rgb(241, 20, 20);
     padding: 40px 30px 40px 30px;
@@ -83,3 +84,4 @@ h1 {
 .forma {
     
 }
+
