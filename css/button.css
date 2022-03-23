@@ -37,4 +37,8 @@
     margin: 40px 0 0 0;
     padding: 10px 30px 10px 30px;
     color: #4182d6;
+    text-decoration: none;
+}
+.btnright:hover {
+    text-decoration: underline;
 }
