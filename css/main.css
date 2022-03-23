@@ -26,9 +26,11 @@ body {
 
 .left-column {
     width: 40%;
+    background-color: blue;
     background-image: linear-gradient(205deg, #4182d62a 0%, #551969a9 100%), url(../images/kalnas.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     top: 30px;
     bottom: 30px;
     position: absolute;
