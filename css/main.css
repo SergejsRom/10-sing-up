@@ -7,7 +7,7 @@ body {
     backdrop-filter: blur(10px);
     background-size: cover;
 }
-/* absolute statomas i artimiausiai nestatini elementa atzvilgiu */
+/* absolute statomas i artimiausiai nestatini tevini elementa */
 .container {
     display: inline-block;
     width: 900px;
