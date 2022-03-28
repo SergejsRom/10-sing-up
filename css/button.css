@@ -7,16 +7,19 @@
     font-style: oblique;
     font-weight: 550;
     margin: 40px 0 0 20px;
-    background-image: linear-gradient(205deg, #4182d6 0%, #6f0b91 100%);
+    background: #4182d6a4;
+    background: linear-gradient(205deg, #4182d6 0%, #6f0b91 100%);
     padding: 10px 40px 10px 40px;
     color: whitesmoke;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 20px;
     border: none;
+    line-height: 20px;
 }
 
 .knopke:hover {
     cursor: pointer;
-    background-image: linear-gradient(205deg, #4182d6a4 0%, #700b919d 100%);
+    background: #1a61bea4;
+    background: linear-gradient(205deg, #4182d6a4 0%, #700b919d 100%);
 }
 
 .or {
@@ -27,6 +30,7 @@
     margin: 40px 0 0 0;
     padding: 10px 30px 10px 50px;
     color: gray;
+    line-height: 20px;
 }
 
 .btnright {
@@ -38,6 +42,7 @@
     padding: 10px 30px 10px 30px;
     color: #4182d6;
     text-decoration: none;
+    line-height: 20px;
 }
 .btnright:hover {
     text-decoration: underline;
