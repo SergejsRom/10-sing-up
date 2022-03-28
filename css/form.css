@@ -13,11 +13,12 @@
 .forma > .formos-eilute > .label {
     display: inline-block;
     width: 100%;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 40px 5px 40px;
     text-align: left;
     font-size: large;
     font-style: oblique;
     font-weight: 550;
+    text-transform: uppercase;
 }
 .forma > .formos-eilute > .input {
         width: 100%;
@@ -27,6 +28,11 @@
         border-radius: 30px 30px 30px 30px;
         font-size:medium;
 }
+.forma > .formos-eilute > .input:focus {
+outline: 2px solid red;
+border: none;
+}
+
 .forma > .formos-eilute:last-of-type {
     margin:0
 }
